@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
 @import "bootstrap";
 
 .clear {
@@ -38,8 +40,24 @@
   color: black;
   font-size: 18px;
   border-bottom: 1px solid #000000;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
 }
 
 header {
   border-top: 9px solid #222222;
+}
+
+hr {
+  clear:both;
+}
+
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: 'Ubuntu', sans-serif;
 }
