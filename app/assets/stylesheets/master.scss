@@ -37,11 +37,10 @@
 }
 
 .links a {
-  color: black;
-  font-size: 18px;
-  border-bottom: 1px solid #000000;
-  font-family: 'Ubuntu', sans-serif;
+  color: #de1f1f;
+  font-size: 20px;
   font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 header {
@@ -66,10 +65,22 @@ h2 {
   font-size: 20px;
   font-family: 'Ubuntu', sans-serif;
   text-align: left;
+  color: #de1f1f;
+}
+
+.next-quote a {
+  font-size: 18px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  color: #de1f1f;
 }
 
 .footer-blurb {
   font-family: 'Ubuntu', sans-serif;
   text-align: right;
   font-size: 12px;
+}
+
+.logo:hover {
+  text-decoration: none;
 }
